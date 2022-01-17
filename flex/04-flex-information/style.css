@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  
 }
 
 img {
@@ -10,6 +11,7 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align:center;
 }
 
 /* do not edit this footer */
@@ -24,3 +26,55 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.container {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  /* flex-flow: column wrap */
+  margin: 32px;
+  gap:52px;
+}
+/*
+
+The text-align I should have put in the body {} instead of putting
+on all classes...
+
+*/
+
+.plant1, .plant2, .plant3, .plant4, .plant5 {
+  flex-basis: 200px;
+  flex-wrap: wrap;
+  text-align: center;
+} 
+
+/* 
+Instead of crating 5 classes I should have create it one for 
+all the 5, like the solution bellow 
+*/
+
+div .text {
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* SOLUTION */
+/* 
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+} */
