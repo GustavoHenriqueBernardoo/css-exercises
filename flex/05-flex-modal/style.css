@@ -20,7 +20,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  padding:15px;
+  padding:18px;
+  gap:18px;
 
 }
 
@@ -69,32 +70,41 @@ button.cancel {
 .container-modal {
   display: flex;
   justify-content: space-between;
-  border: 5px solid lightsalmon;
+  border: 5px ;
 }
 
 .container-title {
-  font-weight:bold;
   flex:1;
-  border: 5px solid lightgoldenrodyellow;
+  border: 5px ;
+  margin-bottom: 15px;
 }
 
 .container-icon {
   margin-right: 15px;
-  border: 5px solid lightblue;
+  border: 15px ;
+  
 }
 
 .container-text {
   display: flex;
   justify-content: center;
-  border: 5px solid black;
+  border: 5px ;
 }
 
 .container-buttons {
-  border: 5px solid red;
+  border: 5px ;
 }
 
 .text {
   flex-basis: 400px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.header {
+  font-weight:bold;
+  border-bottom: 15px ;
+  font-size: 20px;
 }
 
 /* .container-icon, .container-title, .container-x{
