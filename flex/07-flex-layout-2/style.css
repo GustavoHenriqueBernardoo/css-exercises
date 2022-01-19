@@ -38,6 +38,9 @@ ul {
   padding-left: 15px;
   gap:10px
 }
+li {
+  padding:8px;
+}
 html, body {
   height: 100%;
 }
@@ -69,10 +72,11 @@ body {
   flex-wrap:wrap;
   gap: 35px;
   padding: 35px;
+  margin-right: 150px;
 }
 .card {
-  flex:1 2 0 ;
-  padding:32px;
+  flex: 0 1 19em;
+  padding:16px;
   
   
 }
